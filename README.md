@@ -88,28 +88,6 @@ MedVoice is a next-generation telemedicine application that leverages the **Goog
 5.  **Access the App**
     Open your browser and navigate to `http://localhost:5173` (or the port shown in your terminal).
 
----
-
-## 🌍 How to Deploy
-
-### Option 1: Vercel (Recommended)
-
-1.  Push your code to a Git repository (GitHub, GitLab, Bitbucket).
-2.  Log in to [Vercel](https://vercel.com/) and click "Add New Project".
-3.  Import your repository.
-4.  In the **Environment Variables** section, add:
-    *   Name: `API_KEY` (or `VITE_GEMINI_API_KEY` depending on your build config)
-    *   Value: `your_google_ai_studio_key`
-5.  Click **Deploy**.
-
-### Option 2: Netlify
-
-1.  Push your code to Git.
-2.  Log in to [Netlify](https://www.netlify.com/).
-3.  "New site from Git".
-4.  Under "Build settings", set the build command to `npm run build` and publish directory to `dist`.
-5.  Under "Advanced build settings" -> "Environment variables", add your API Key.
-6.  Deploy Site.
 
 ---
 
