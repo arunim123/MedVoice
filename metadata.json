@@ -1,0 +1,7 @@
+{
+  "name": "MedVoice: AI Healthcare Assistant",
+  "description": "A comprehensive AI health assistant featuring voice triage, specialist matching, doctor appointment booking, and payment processing.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
